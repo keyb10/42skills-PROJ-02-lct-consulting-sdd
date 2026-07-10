@@ -123,5 +123,8 @@ Sequência acordada: **Estudo profundo de D1×C1** (Camada 1 — Sequência Inve
 
 ---
 
-**Última atualização:** 2026-07-09
+**Atualização 2026-07-10 (v0.0.8):** D1 PRODUZIDO. 6 POPs prontos em pops/. Marcadores [adotado:] / [rejeitado:] aplicados no The Revenue Codex original (20 caps). Commit + push no GitHub finalizados.
+
+**Próximo:** D2 produção (10 POPs).
+
 **Snapshot anterior arquivado em:** knowledge/motor-lct/_archive/estado-atual-2026-07-07.md
