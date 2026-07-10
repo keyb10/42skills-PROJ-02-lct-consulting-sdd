@@ -1,0 +1,30 @@
+# PROJ-02 (LCT Consulting / Motor LCT) — .gitignore
+
+## OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## Ambiente
+.env
+.env.local
+.env.*.local
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+## Saída / Temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+## Git Backup
+*.orig
+
+## Ref-original (somente leitura, ver ref-original/)
+# ref-original/links.md (se houver) - manter público

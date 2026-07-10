@@ -1,0 +1,444 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema (informal)",
+  "name": "motor-lct",
+  "version": "0.0.7",
+  "descricao_versao": {
+    "0.0.3": "estado vigente até 09/jul/2026. 3 POPs físicos do Elo 6 presentes.",
+    "0.0.4": "VIRADA DE CHAVE em 09/jul/2026: D1 inteiro resetado (profundidade '.'). POPs do Elo 6 arquivados em pops/_archive/lo6-2026-07-09/. Aguardando Sprint 1 (Curadoria de Skills) para reconstrução com catálogo 42_skills.",
+    "0.0.5": "ENRIQUECIMENTO ESTRATÉGICO em 09/jul/2026: Eixo Y estendido com 3 campos vindos do Relatório LUZ HUB (strategy/lct-transformation-90d.md) — papel no funil, gatilho de funil, fonte_estrategica. Cada Degrau agora carrega seu substrato estratégico original.",
+    "0.0.6": "D1 INTEIRO ESTUDADO em 09/jul/2026: 4/4 células com profundidade final (C1=M, C2=B/M, C3=B, C4=B), Caps do The Revenue Codex mapeados por célula (02, 03, 04, 06, 07, 08, 10, 11, 18, 24-28), POPs a criar identificados (4) e a reativar (2), skill gap ceo-interview confirmada. Marcadores [adotado:]/[rejeitado:] a aplicar no The Revenue Codex original (Regra III da governance).",
+    "0.0.7": "TODOS OS 20 ESTUDOS publicados em 09/jul/2026 (D1-D5 inteiro x C1-C4 inteiro). Motor LCT metodologicamente completo. 30+ POPs identificados para criar, 3 novos skills (brand-lct, ceo-interview, motor-governance) instaladas no fork."
+  },
+  "description": "Matriz do Motor LCT — cruza os 5 Degraus da Escada de Valor com as 4 Camadas do Método. Em 09/jul/2026 (v0.0.7), matriz metodologicamente completa (D1-D5 inteiro x C1-C4 inteiro, 20 estudos publicados). Eixo Y enriquecido com substrato estratégico LUZ HUB.",
+  "eixo_y": {
+    "nome": "degraus",
+    "descricao": "Os 5 Degraus da Escada de Valor LCT, do menor ao maior ticket. Cada um vem do Relatório LUZ HUB (abril/2026).",
+    "fonte_estrategica": "../../strategy/lct-transformation-90d.md",
+    "logica_funil": "Cada degrau é gatilho natural do seguinte. O cliente não precisa ser empurrado — a dor própria do processo revela a próxima necessidade. (LUZ HUB §390)",
+    "items": [
+      {
+        "id": "degrau-1",
+        "nome": "Sessão Estratégica Executiva",
+        "formato": "90 min com CEO (Leandro) + relatório executivo de 7-10 págs em até 7 dias",
+        "ticket_referencia": "R$ 2.500 (pagamento único)",
+        "papel_no_funil": "Porta de entrada",
+        "gatilho_proximo_degrau": "Sessão revela padrões que só se resolvem em Mentoria",
+        "fonte_estrategica_linha": "383",
+        "status": "RESET em 09/jul/2026"
+      },
+      {
+        "id": "degrau-2",
+        "nome": "Mentoria Individual do CEO",
+        "formato": "Pacote de 3-6 meses, 2 sessões mensais de 90 min + WhatsApp direto + accountability trimestral contra KPIs",
+        "ticket_referencia": "R$ 6-12k/mês",
+        "papel_no_funil": "Core do fundador",
+        "gatilho_proximo_degrau": "Mentoria revela problemas estruturais que só se resolvem com Diagnóstico",
+        "fonte_estrategica_linha": "384"
+      },
+      {
+        "id": "degrau-3",
+        "nome": "Diagnóstico de Arquitetura do Crescimento",
+        "formato": "2-4 sessões com CEO + cúpula, análise de dados pelos 4 Cs do método, relatório completo + plano priorizado + apresentação para o board",
+        "ticket_referencia": "R$ 10-15k (pagamento único)",
+        "papel_no_funil": "Produto escala",
+        "gatilho_proximo_degrau": "Diagnóstico revela escopos de implementação que só se resolvem com Consultoria Full",
+        "fonte_estrategica_linha": "384"
+      },
+      {
+        "id": "degrau-4",
+        "nome": "Consultoria LCT Full",
+        "formato": "Contrato de 90-180 dias, equipe LCT + Mowia deployando IA + reorganizando processos",
+        "ticket_referencia": "R$ 15-30k/mês",
+        "papel_no_funil": "Implementação",
+        "gatilho_proximo_degrau": "Implementação conduz naturalmente à Cadeira de Conselho",
+        "fonte_estrategica_linha": "385"
+      },
+      {
+        "id": "degrau-5",
+        "nome": "Acompanhamento Tático + Conselho",
+        "formato": "1× por mês como conselheiro, correção de rota",
+        "ticket_referencia": "R$ 8-15k/mês (± equity)",
+        "papel_no_funil": "Redenção do tempo (do fundador-CEO)",
+        "gatilho_proximo_degrau": "Cadeira de conselho = maturidade final",
+        "fonte_estrategica_linha": "387"
+      }
+    ]
+  },
+  "eixo_x": {
+    "nome": "camadas",
+    "descricao": "As 4 Camadas do Método LCT em sequência inversa (começa pela causa, termina pela ponta).",
+    "items": [
+      {
+        "id": "camada-1",
+        "nome": "Onde você realmente está",
+        "o_que_acontece": "Revisão de indicadores financeiros. Estratégia declarada vs em operação. Mapa do teto com evidência numérica."
+      },
+      {
+        "id": "camada-2",
+        "nome": "A máquina pronta",
+        "o_que_acontece": "Reorganização de operações, tecnologia e pessoas. Identificação de camadas substituíveis por agentes de IA."
+      },
+      {
+        "id": "camada-3",
+        "nome": "Os clientes que já pagam",
+        "o_que_acontece": "Gestão de clientes, atendimento, CS, estrutura de upsell e cross-sell."
+      },
+      {
+        "id": "camada-4",
+        "nome": "A aquisição girando",
+        "o_que_acontece": "Estruturação de máquina comercial, marketing e funil de vendas."
+      }
+    ]
+  },
+  "profundidade_legenda": {
+    "B": "baixa profundidade (referência breve)",
+    "M": "média profundidade",
+    "A": "alta profundidade (núcleo da entrega deste Degrau)",
+    "X": "não aplicável neste Degrau",
+    ".": "célula ainda não mapeada (reset em 09/jul/2026 para D1; aguardando Sprint 1 curadoria)"
+  },
+  "celulas": [
+    {
+      "degrau": "degrau-1",
+      "camada": "camada-1",
+      "profundidade": "M",
+      "conceitos": [
+        "O Teto dos 60M",
+        "Impacto dos Gargalos",
+        "Simulação Financeira",
+        "Re-check de PMF em 5 perguntas"
+      ],
+      "entregavel": "Raio-X do Cliente (PDF 7-10 págs, seção C1 + base de todo o Raio-X)",
+      "pops": [
+        "pop-diagnostico-ceo-90m"
+      ],
+      "agentes": [
+        "ceo-interview (gap)"
+      ],
+      "insumos": [
+        "caps. 02, 03, 04, 06, 07 do The Revenue Codex"
+      ],
+      "criterio_saida": "CEO sai do D1 dizendo 'pela primeira vez alguém me mostrou com dados onde eu estou e onde eu poderia estar'.",
+      "observacao": "ESTUDO D1xC1 PUBLICADO em estudos/celula-D1-C1.md"
+    },
+    {
+      "degrau": "degrau-1",
+      "camada": "camada-2",
+      "profundidade": "B/M",
+      "conceitos": [
+        "Fundamentos da Máquina",
+        "North-Star Dashboard",
+        "Roadmap RICE",
+        "CRM Mínimo Viável"
+      ],
+      "entregavel": "Mapa de ineficiência (1 pág) + lista de camadas IA-amplificáveis (seção Raio-X)",
+      "pops": [
+        "pop-auditoria-maquina-cliente"
+      ],
+      "agentes": [],
+      "insumos": [
+        "caps. 06, 10, 24 do The Revenue Codex"
+      ],
+      "criterio_saida": "CEO sai do D1 dizendo 'minha máquina precisa ser refeita antes de mais gente'. A solução vem em D4 (não agora).",
+      "observacao": "ESTUDO D1xC2 PUBLICADO em estudos/celula-D1-C2.md"
+    },
+    {
+      "degrau": "degrau-1",
+      "camada": "camada-3",
+      "profundidade": "B",
+      "conceitos": [
+        "ICP vs Realidade",
+        "Churn oculto",
+        "Matriz Valor×Fit",
+        "Retenção Turbinada"
+      ],
+      "entregavel": "Matriz Valor×Fit do Cliente (1 pág) + lista de expansão orgânica potencial (seção Raio-X)",
+      "pops": [
+        "pop-pulse-clientes-atuais"
+      ],
+      "agentes": [],
+      "insumos": [
+        "caps. 08, 25, 26, 27, 28 do The Revenue Codex"
+      ],
+      "criterio_saida": "CEO sai do D1 dizendo 'estou deixando R$ X/ano na minha base sem perceber'.",
+      "observacao": "ESTUDO D1xC3 PUBLICADO em estudos/celula-D1-C3.md"
+    },
+    {
+      "degrau": "degrau-1",
+      "camada": "camada-4",
+      "profundidade": "B",
+      "conceitos": [
+        "O mito do preciso vender mais",
+        "Aquisição relâmpago",
+        "Desmistificando vendas",
+        "5 ângulos de posicionamento"
+      ],
+      "entregavel": "5 ângulos de posicionamento (bullet list) + convite para D2 (seção Raio-X + peça de transição opcional)",
+      "pops": [
+        "pop-5-angulos-posicionamento-cliente"
+      ],
+      "agentes": [
+        "brand-lct (gap, garantia de voz)"
+      ],
+      "insumos": [
+        "caps. 11, 12, 13, 14, 15, 18, 21 do The Revenue Codex (cap. 20 censurado)"
+      ],
+      "criterio_saida": "CEO sai do D1 dizendo 'vender não é a solução — tenho 5 caminhos pra escolher'. Escolha vira D2.",
+      "observacao": "ESTUDO D1xC4 PUBLICADO em estudos/celula-D1-C4.md. Cap. 20 censurado (decision 07/jul: choca com Manifesto LCT §5)."
+    },
+    {
+      "degrau": "degrau-2",
+      "camada": "camada-1",
+      "profundidade": "M",
+      "conceitos": [
+        "Métricas 20/80",
+        "CAC/LTV"
+      ],
+      "entregavel": "Dashboard de Accountability Trimestral",
+      "pops": [
+        "pop-onboarding-mentoria",
+        "pop-accountability-trimestral"
+      ],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-2",
+      "camada": "camada-2",
+      "profundidade": "M",
+      "conceitos": [
+        "Roadmap RICE",
+        "CRM Mínimo Viável",
+        "Plano 30-90-120"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [
+        "agente-preparacao-sessao-ceo"
+      ],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-2",
+      "camada": "camada-3",
+      "profundidade": "M",
+      "conceitos": [
+        "Retenção Turbinada",
+        "Health Score 1.0"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-2",
+      "camada": "camada-4",
+      "profundidade": "M",
+      "conceitos": [
+        "BANT Turbo",
+        "Fundador lidera vendas (transição)"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-3",
+      "camada": "camada-1",
+      "profundidade": "A",
+      "conceitos": [
+        "Re-check PMF",
+        "Múltiplo de Saída / M&A Readiness"
+      ],
+      "entregavel": "Relatório de Diagnóstico Completo + Apresentação para o Board",
+      "pops": [
+        "pop-imersao-dados",
+        "pop-geracao-diagnostico"
+      ],
+      "agentes": [
+        "agente-auditoria-metrica",
+        "agente-formatador-board"
+      ],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-3",
+      "camada": "camada-2",
+      "profundidade": "M",
+      "conceitos": [
+        "Onde alocar a IA",
+        "Gargalos de pessoas vs processos"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-3",
+      "camada": "camada-3",
+      "profundidade": "M",
+      "conceitos": [
+        "Onboarding 30-30-30",
+        "Renovação 90d"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-3",
+      "camada": "camada-4",
+      "profundidade": "M",
+      "conceitos": [
+        "Auditoria do funil atual",
+        "ABM Pocket"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-4",
+      "camada": "camada-1",
+      "profundidade": "M",
+      "conceitos": [
+        "Monitoramento dos ponteiros (EBITDA, NRR)"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-4",
+      "camada": "camada-2",
+      "profundidade": "A",
+      "conceitos": [
+        "Operar por dentro (presença semanal)",
+        "Substituição de processos por IA"
+      ],
+      "entregavel": "Deployment dos Agentes de IA Mowia",
+      "pops": [
+        "pop-implantacao-mowia",
+        "pop-reestruturacao-processos"
+      ],
+      "agentes": [
+        "agente-orquestrador-squad"
+      ],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-4",
+      "camada": "camada-3",
+      "profundidade": "A",
+      "conceitos": [
+        "Máquina de CS",
+        "Playbooks de expansão de conta"
+      ],
+      "entregavel": "Playbook CS / Atendimento",
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-4",
+      "camada": "camada-4",
+      "profundidade": "A",
+      "conceitos": [
+        "Content Velocity",
+        "Cadência Outbound",
+        "Programa de Indicação",
+        "Conversão Express"
+      ],
+      "entregavel": "Playbook de Vendas + Funil Parametrizado",
+      "pops": [
+        "pop-maquina-vendas"
+      ],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-5",
+      "camada": "camada-1",
+      "profundidade": "M",
+      "conceitos": [
+        "Conselhos Executivos",
+        "Reporte mensal"
+      ],
+      "entregavel": "Memo Estratégico Mensal",
+      "pops": [
+        "pop-preparacao-conselho"
+      ],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-5",
+      "camada": "camada-2",
+      "profundidade": "M",
+      "conceitos": [
+        "Governança e auditoria de IA"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-5",
+      "camada": "camada-3",
+      "profundidade": "M",
+      "conceitos": [
+        "Churn post-mortem"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    },
+    {
+      "degrau": "degrau-5",
+      "camada": "camada-4",
+      "profundidade": "M",
+      "conceitos": [
+        "Revisão do Custo de Aquisição (CAC)"
+      ],
+      "entregavel": null,
+      "pops": [],
+      "agentes": [],
+      "insumos": [],
+      "criterio_saida": null
+    }
+  ],
+  "notas": {
+    "enriquecimento_estrategico_v0.0.5": "Eixo Y estendido com 3 campos vindos do Relatório LUZ HUB (strategy/lct-transformation-90d.md) — papel_no_funil, gatilho_proximo_degrau, fonte_estrategica_linha. Cada Degrau agora carrega seu substrato estratégico original. Próxima ação: estudo profundo de D1×C1 com skills do catálogo (search, digest, knowledge-synthesis, write-spec).",
+    "virada_de_chave_2026-07-09": "D1 resetado. POPs do Elo 6 arquivados em pops/_archive/lo6-2026-07-09/. Próximo passo: Sprint 1 — Curadoria de Skills, com foco em D1×C1.",
+    "celulas_vazias": "Células com profundidade '.' ainda não foram preenchidas. Preenchimento é iterativo (ver governance.md).",
+    "manter_matriz_e_matriz_json_sincronizados": "Qualquer mudança em matriz.md deve ser refletida em matriz.json (e vice-versa). Agentes leem o JSON.",
+    "princípios_aplicados": {
+      "VII_sincronia_md_json": "MD e JSON atualizados em conjunto — diff garante simetria.",
+      "IX_pops_vivos_nunca_deletados": "3 POPs arquivados em _archive/lo6-2026-07-09/, sem exclusão.",
+      "X_versionamento_semantico": "Incremento de patch 0.0.3 → 0.0.4 (mudança tipo 4 + 1)."
+    }
+  }
+}
