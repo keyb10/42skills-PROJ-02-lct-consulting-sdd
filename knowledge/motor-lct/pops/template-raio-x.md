@@ -1,5 +1,35 @@
+---
+name: template-raio-x
+description: Template do Relatório Executivo Raio-X (entregável-âncora do D1) — estrutura 9-páginas cobrindo 4 Camadas + simulação financeira multi-cenário (Cap. 03+04) + caminhos de resolução
+version: 2.0.0 (v1.0.0 original reativada 2026-07-10 após v0.0.4 do Motor)
+applies_to: [LCT Consulting / Degrau 1 / Sessão Estratégica Executiva]
+caps_referenced:
+  - Cap. 02 (Impacto silencioso dos gargalos)
+  - Cap. 03 (Simulação Financeira Realista)
+  - Cap. 04 (O Efeito nos Números)
+  - Cap. 07 (Re-check PMF em 5 perguntas)
+related_skills:
+  - ceo-interview             ← alimenta o Raio-X (5 respostas viram diagnóstico)
+  - brand-lct                 ← voz LCT no documento
+  - motor-governance           ← 6 checks validados na produção
+related_studies:
+  - estudos/celula-D1-C1.md  (Raio-X é o entregável-âncora da C1)
+related_pops:
+  - pop-diagnostico-ceo-90m.md        ← protocola a sessão que gera os dados
+  - pop-auditoria-maquina-cliente.md  ← alimenta seção Camada 2
+  - pop-pulse-clientes-atuais.md      ← alimenta seção Camada 3
+  - pop-5-angulos-posicionamento-cliente.md  ← opcional: ganha seção
+governance:
+  - Constituição §I (Sequência Inversa)
+  - Constituição §V (Honestidade Brutal)
+  - Constituição §III (IA como Infraestrutura, Não Tema)
+license: LCT Consulting (uso interno)
+---
+
 # Template: Relatório Executivo Raio-X LCT
-*Versão 1.0.0 | Autor: LCT Consulting (Leandro Tavares)*
+*Versão 2.0.0 | Autor: LCT Consulting (Leandro Tavares)*
+
+> **Propósito do Documento:** Este é o esqueleto do entregável físico do **Degrau 1 (Sessão Estratégica Executiva)**. Ele deve ser personalizado após a Reunião Estratégica (Elo 5) com os dados reais do cliente. A redação deve seguir à risca o tom de voz da LCT (skill `brand-lct`): analítico, cirúrgico, sem floreios corporativos e focado em redefinir o problema do cliente do "preciso vender" para o "minha arquitetura está quebrada".
 
 > **Propósito do Documento:** Este é o esqueleto do entregável físico do **Degrau 1 (Sessão Estratégica Executiva)**. Ele deve ser personalizado após a Reunião Estratégica (Elo 5) com os dados reais do cliente. A redação deve seguir à risca o tom de voz da LCT: analítico, cirúrgico, sem floreios corporativos e focado em redefinir o problema do cliente do "preciso vender" para o "minha arquitetura está quebrada".
 

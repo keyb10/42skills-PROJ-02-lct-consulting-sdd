@@ -1,6 +1,6 @@
 # Matriz do Motor LCT
 
-> **Status (2026-07-09) v0.0.7:** TODOS OS 20 ESTUDOS publicados (D1-D5 inteiro x C1-C4 inteiro). Motor LCT **metodologicamente completo**. (4/4 células). Profundidades finais aplicadas: C1=M, C2=B/M, C3=B, C4=B. Caps do The Revenue Codex mapeados em cada célula. Bump patch 0.0.5 → 0.0.6. MD↔JSON sincronizados. Próxima etapa: criar POPs + skill `ceo-interview` para fechar o D1.
+> **Status (2026-07-10) v0.0.8:** D1 PRODUZIDO — 4 POPs novos + 2 reativações do archive + template-raio-x.md v2.0.0. Cap. 11, 18, 21, 13, 15, 14 adotados no POP-04; Cap. 20 censurado. 20 estudos continuam publicados. (D1-D5 inteiro x C1-C4 inteiro). Motor LCT **metodologicamente completo**. (4/4 células). Profundidades finais aplicadas: C1=M, C2=B/M, C3=B, C4=B. Caps do The Revenue Codex mapeados em cada célula. Bump patch 0.0.5 → 0.0.6. MD↔JSON sincronizados. Próxima etapa: criar POPs + skill `ceo-interview` para fechar o D1.
 >
 > **Status (2026-07-09) v0.0.5:** Matriz enriquecida com colunas estratégicas (formato, ticket, papel, gatilho de funil, fonte LUZ HUB). Bump patch 0.0.4 → 0.0.5. Mudança tipo 1 + 2 (preencher células + adicionar prática de compêndio estratégico). MD↔JSON sincronizados.
 >
@@ -63,15 +63,16 @@ Abaixo está o detalhamento estrutural do que compõe cada intersecção.
 ### D1: Sessão Estratégica Executiva ✅ (estudo completo)
 *Foco: Mostrar o teto invisível e diagnosticar rapidamente a operação (Foco em C1).*
 
-*   **Status v0.0.6:** ✅ **D1 inteiro estudado** (4/4 células com profundidade + Caps do The Revenue Codex mapeados). Detalhes em `estudos/celula-D1-C{1,2,3,4}.md`.
-*   **POPs a criar (síntese dos 4 estudos):**
-    - `pop-diagnostico-ceo-90m.md` — protocolo da sessão 90 min (Caps. 02+07 do The Revenue Codex)
-    - `pop-auditoria-maquina-cliente.md` — auditoria operacional leve (Cap. 06+10+24)
-    - `pop-pulse-clientes-atuais.md` — Matriz Valor×Fit do cliente (Cap. 08+25-28)
-    - `pop-5-angulos-posicionamento-cliente.md` — 5 ângulos de abertura (Cap. 11+18; Cap. 20 censurado)
-*   **POPs a reativar do `_archive/lo6-2026-07-09/`**: `template-raio-x.md`, `pop-diagnostico-final.md` (com reescrita à luz do The Revenue Codex)
-*   **Skill central (gap PROJ-03):** `ceo-interview` — protocolo das 5 perguntas-chave do Cap. 07
-*   **Marcador no The Revenue Codex original:** aplicar Regra III da governance — `[adotado:]` em caps. 11+18, `[rejeitado: LCT-tese]` em cap. 20
+*   **Status v0.0.8:** ✅ **D1 PRODUZIDO — POPs prontos para entrar em operação.**
+*   **6 POPs prontos em `pops/`:**
+    - `pop-diagnostico-ceo-90m.md` (v1.0.0) — protocolo sessão 90 min (Caps. 02+07)
+    - `pop-auditoria-maquina-cliente.md` (v1.0.0) — auditoria operacional leve (Caps. 06+10+24)
+    - `pop-pulse-clientes-atuais.md` (v1.0.0) — Matriz Valor×Fit (Cap. 08+25-28)
+    - `pop-5-angulos-posicionamento-cliente.md` (v1.0.0) — 5 ângulos (Caps. 11+18; Cap. 20 censurado)
+    - `template-raio-x.md` (v2.0.0) — **reativado** do _archive com frontmatter YAML (Caps. 02+03+04+07)
+    - `pop-diagnostico-final.md` (v2.0.0) — **reativado** com frontmatter (Caps. 03+04+25+29)
+*   **Skill(s) centrais usadas:** `ceo-interview` (5 perguntas-chave) + `brand-lct` (voz) + `motor-governance` (validação dos bumps).
+*   **Marcador no The Revenue Codex original:** A SER aplicado — `[adotado:]` em caps. 11+18+13+15+14+25-28+03+04, `[rejeitado: LCT-tese-fundador-CEO-Estrategista]` em cap. 20.
 
 *   **C1 (M, núcleo):** Caps. 02, 03, 04, 06, 07. Entregável âncora: **Raio-X do Cliente** (PDF 7-10 págs). 5 perguntas-chave do Cap. 07 ditam a sessão.
 *   **C2 (B/M):** Caps. 06, 10, 24. Mapa de ineficiência (1 pág). Lista de camadas IA-amplificáveis (D4 implantará).

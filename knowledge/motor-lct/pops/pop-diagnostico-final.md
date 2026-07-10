@@ -1,7 +1,29 @@
-# POP: Condução da Apresentação do Diagnóstico Final (Elo 6)
-*Versão 1.0.0 | Autor: LCT Consulting*
+---
+name: pop-diagnostico-final
+description: Condução da Apresentação do Diagnóstico Final (90 min) — fechamento do D1×C1 com entrega do Raio-X e upsell natural para D2 (Mentoria)
+version: 2.0.0 (v1.0.0 original reativada 2026-07-10)
+applies_to: [LCT Consulting / Degrau 1 / Sessão Estratégica Executiva / Fechamento]
+related_skills:
+  - brand-lct                ← voz LCT em toda a apresentação
+  - ceo-interview            ← a sessão que originou o Raio-X
+  - motor-governance         ← validação quando o POP muda
+related_pops:
+  - pop-diagnostico-ceo-90m.md   ← protocolo que originou os dados do Raio-X
+  - template-raio-x.md          ← documento que será entregue nesta sessão
+caps_referenced:
+  - Cap. 03 (Simulação Financeira Realista) — base da Matemática do Teto
+  - Cap. 04 (O Efeito nos Números) — síntese financeira
+  - Cap. 25 (Retenção Turbinada) — para argumento C3
+  - Cap. 29 (Métricas 20/80) — para lastro dos números
+governance:
+  - Constituição §V (Honestidade Brutal) — essência do fechamento
+  - LUZ HUB §390 ("cada degrau é gatilho natural do seguinte")
+related_study: estudos/celula-D1-C1.md
+---
 
-> **Propósito do Documento:** Procedimento Operacional Padrão (POP) para guiar o consultor (Leandro Tavares) na condução da Reunião de Apresentação de 90 minutos do Diagnóstico Final. A meta desta reunião é entregar clareza brutal sobre as falhas sistêmicas do negócio e realizar o upsell natural para os próximos Degraus da Escada de Valor.
+# POP: Condução da Apresentação do Diagnóstico Final (Elo 6, fechamento do D1)
+
+> **Propósito do Documento:** Procedimento Operacional Padrão (POP) para guiar o arquiteto de crescimento (no caso do Leandro Tavares) na condução da Reunião de Apresentação de 90 minutos do Diagnóstico Final. A meta desta reunião é **entregar o Raio-X do Cliente** com clareza brutal sobre as falhas sistêmicas do negócio e fazer o **upsell natural** para o próximo Degrau (D2 — Mentoria).
 
 ---
 
