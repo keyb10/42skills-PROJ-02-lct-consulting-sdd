@@ -1,5 +1,7 @@
 # Matriz do Motor LCT
 
+> **Status (2026-07-11) v0.0.9:** Jornada D1 re-mapeada para 5 etapas (Isca → Reunião 1 → Coleta Densa → Reunião 2 + Apresentação/upsell). 6 POPs arquivados em `_archive/lo6-2026-07-09-v0.0.8/`. 12 POPs novos/renomeados em v0.0.9 (Etapas 0-4 + Garantia + Contrato). 4 estudos (D1-C1 a C4) com seção de mudança de jornada anexada. 6 POPs antigos preservados (Regra IX — sem delete). MD↔JSON sincronizados.
+>
 > **Status (2026-07-10) v0.0.8:** D1 PRODUZIDO — 4 POPs novos + 2 reativações do archive + template-raio-x.md v2.0.0. Cap. 11, 18, 21, 13, 15, 14 adotados no POP-04; Cap. 20 censurado. 20 estudos continuam publicados. (D1-D5 inteiro x C1-C4 inteiro). Motor LCT **metodologicamente completo**. (4/4 células). Profundidades finais aplicadas: C1=M, C2=B/M, C3=B, C4=B. Caps do The Revenue Codex mapeados em cada célula. Bump patch 0.0.5 → 0.0.6. MD↔JSON sincronizados. Próxima etapa: criar POPs + skill `ceo-interview` para fechar o D1.
 >
 > **Status (2026-07-09) v0.0.5:** Matriz enriquecida com colunas estratégicas (formato, ticket, papel, gatilho de funil, fonte LUZ HUB). Bump patch 0.0.4 → 0.0.5. Mudança tipo 1 + 2 (preencher células + adicionar prática de compêndio estratégico). MD↔JSON sincronizados.

@@ -1,14 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema (informal)",
   "name": "motor-lct",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "descricao_versao": {
     "0.0.3": "estado vigente até 09/jul/2026. 3 POPs físicos do Elo 6 presentes.",
     "0.0.4": "VIRADA DE CHAVE em 09/jul/2026: D1 inteiro resetado (profundidade '.'). POPs do Elo 6 arquivados em pops/_archive/lo6-2026-07-09/. Aguardando Sprint 1 (Curadoria de Skills) para reconstrução com catálogo 42_skills.",
     "0.0.5": "ENRIQUECIMENTO ESTRATÉGICO em 09/jul/2026: Eixo Y estendido com 3 campos vindos do Relatório LUZ HUB (strategy/lct-transformation-90d.md) — papel no funil, gatilho de funil, fonte_estrategica. Cada Degrau agora carrega seu substrato estratégico original.",
     "0.0.6": "D1 INTEIRO ESTUDADO em 09/jul/2026: 4/4 células com profundidade final (C1=M, C2=B/M, C3=B, C4=B), Caps do The Revenue Codex mapeados por célula (02, 03, 04, 06, 07, 08, 10, 11, 18, 24-28), POPs a criar identificados (4) e a reativar (2), skill gap ceo-interview confirmada. Marcadores [adotado:]/[rejeitado:] a aplicar no The Revenue Codex original (Regra III da governance).",
     "0.0.7": "TODOS OS 20 ESTUDOS publicados em 09/jul/2026 (D1-D5 inteiro x C1-C4 inteiro). Motor LCT metodologicamente completo. 30+ POPs identificados para criar, 3 novos skills (brand-lct, ceo-interview, motor-governance) instaladas no fork.",
-    "0.0.8": "D1 PRODUZIDO em 10/jul/2026 (pós-09/jul). 4 POPs novos (pop-diagnostico-ceo-90m, pop-auditoria-maquina-cliente, pop-pulse-clientes-atuais, pop-5-angulos-posicionamento-cliente) + 2 reativações do archive (template-raio-x v2.0.0, pop-diagnostico-final v2.0.0) com frontmatter YAML adicionado. 20 estudos publicados inalterados. Motor LCT pronto para entrar em produção operacional."
+    "0.0.8": "D1 PRODUZIDO em 10/jul/2026 (pós-09/jul). 4 POPs novos (pop-diagnostico-ceo-90m, pop-auditoria-maquina-cliente, pop-pulse-clientes-atuais, pop-5-angulos-posicionamento-cliente) + 2 reativações do archive (template-raio-x v2.0.0, pop-diagnostico-final v2.0.0) com frontmatter YAML adicionado. 20 estudos publicados inalterados. Motor LCT pronto para entrar em produção operacional.",
+    "0.0.9": "Jornada D1 re-mapeada para 4 etapas (Isca → Reunião 1 → Coleta Densa → Reunião 2 + Apresentação/upsell). 6 POPs arquivados em v0.0.8, 12 POPs novos/renomeados em v0.0.9 (Etapas 0-4 + Garantia + Contrato). 4 estudos (D1-C1 a C4) com seção de mudança de jornada. 6 POPs antigos preservados em _archive/lo6-2026-07-09-v0.0.8/ (Regra IX)."
   },
   "description": "Matriz do Motor LCT — cruza os 5 Degraus da Escada de Valor com as 4 Camadas do Método. Em 09/jul/2026 (v0.0.7), matriz metodologicamente completa (D1-D5 inteiro x C1-C4 inteiro, 20 estudos publicados). Eixo Y enriquecido com substrato estratégico LUZ HUB.",
   "eixo_y": {

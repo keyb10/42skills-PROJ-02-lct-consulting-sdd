@@ -149,3 +149,40 @@ Justificativa: Sequência Inversa da Constituição §I. C1 é onde o CEO-client
 |---|---|---|
 | 2026-07-09 | v1 (estudo inaugural, com reset D1) | ✅ Aguarda peer-review do Leandro |
 | (futura) | v2 (após criar `ceo-interview` skill e POPs) | ⏳ |
+
+
+---
+
+## 🆕 Mudança de jornada 2026-07-11 (v0.0.9)
+
+> A partir de revisão crítica com o Leandro, a jornada D1 foi re-mapeada de uma sessão única de 90 min para um **pipeline de 4 etapas**:
+>
+> ```
+> ETAPA 0 — ISCA               (formulário → resultado UAU → agendar)
+> ETAPA 1 — REUNIÃO 1 (1h)     (50% análise ISCA + 50% venda D1 → contrato)
+> ETAPA 2 — COLETA DENSA        (formulário + repositório)
+> ETAPA 3 — REUNIÃO 2 (90 min) ("vamos fundo" — esta célula)
+> ETAPA 4 — APRESENTAÇÃO + UPSELL (50% Raio-X + 50% venda D2-D5)
+> ```
+>
+> **Esta célula (Etapa 3 (Reunião 2, 90 min))** foi re-mapeada para um dos POPs acima:
+>
+> | POP re-mapeado | Posição na nova jornada |
+> |---|---|
+> | [`../pops/pop-etapa-0-isca-builder.md`](../pops/pop-etapa-0-isca-builder.md) | (Etapa 3 - core) |
+> | [`../pops/pop-etapa-1-reuniao-1h.md`](../pops/pop-etapa-1-reuniao-1h.md) | (Etapa 3 - companion) |
+> | [`../pops/pop-etapa-2-coleta-densa.md`](../pops/pop-etapa-2-coleta-densa.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/pop-etapa-3-reuniao-2-90m.md`](../pops/pop-etapa-3-reuniao-2-90m.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/pop-etapa-4-apresentacao-final.md`](../pops/pop-etapa-4-apresentacao-final.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/pop-etapa-4-template-raio-x.md`](../pops/pop-etapa-4-template-raio-x.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/pop-etapa-4-upsell-d2-d5.md`](../pops/pop-etapa-4-upsell-d2-d5.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/pop-garantia-indevista.md`](../pops/pop-garantia-indevista.md) | (Etapa 3 - cross-ref) |
+> | [`../pops/template-contrato-d1.md`](../pops/template-contrato-d1.md) | (Etapa 3 - cross-ref) |
+
+> **Contexto:** Esta célula continua relevante para a estrutura metodológica (Caps. The Revenue Codex, lentes LCT). O que mudou é a **posição na jornada** — sai de "sessão única" para "Etapa Etapa 3 do pipeline".
+>
+> **Lições de Leandro** (de sessão de revisão 2026-07-11):
+> - A **garantia incondicional** é parte do D1, não cosmética
+> - **Reunião 1** deve ter 50% análise (não pitch-only)
+> - **Coleta Densa** vem DEPOIS do aceite, não antes
+> - **Apresentação + Upsell** é 50%/50% (não upsell-only)
